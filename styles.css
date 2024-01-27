@@ -1,0 +1,19 @@
+body{
+    border: 0px;
+    margin: 0px;
+}
+
+.header{
+    background-color: #1f2937;
+    height: 50px;
+    width: auto;
+    display: block;
+}
+
+
+.hero, .info, .quote, .call-to-action{
+    height: 500px;
+    width: auto;
+    padding-left: 50px;
+}
+
