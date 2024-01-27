@@ -7,13 +7,40 @@ body{
     background-color: #1f2937;
     height: 50px;
     width: auto;
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
+.header-logo{
+    height: 35px;
+    width: 35px;
+    margin: 0px;
+    padding: 0px;
+    flex-shrink: 0%;
+    min-width: 35px;
+    margin-right: 50px;
+}
 
+/* set width and height of main page sections */
 .hero, .info, .quote, .call-to-action{
     height: 500px;
     width: auto;
     padding-left: 50px;
 }
 
+
+.right-links{
+    display: flex;
+    gap: 30px;
+}
+/* style header links */
+a{
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
