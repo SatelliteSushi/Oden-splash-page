@@ -5,7 +5,7 @@ body{
 
 .header{
     background-color: #1f2937;
-    height: 50px;
+    height: 75px;
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -24,13 +24,6 @@ body{
     margin-right: 50px;
 }
 
-/* set width and height of main page sections */
-.hero, .info, .quote, .call-to-action{
-    height: 500px;
-    width: auto;
-    padding-left: 50px;
-}
-
 
 .right-links{
     display: flex;
@@ -39,8 +32,50 @@ body{
 /* style header links */
 a{
     text-decoration: none;
-    color: rgb(212, 212, 212);
+    color: #e5e7eb;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     white-space: nowrap;
+}
+
+/* set width and height of main page sections */
+.hero, .info, .quote, .call-to-action{
+    height: 66vh;
+    width: auto;
+    padding-left: 200px;
+}
+
+.hero{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.twis{
+    width: 500px;
+    white-space: nowrap;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    text-wrap: wrap;
+}
+
+.hero-text{
+    color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-wrap: wrap;
+}
+
+.sign-up{
+    background-color: #3882f6;
+    border-style: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: large;
 }
